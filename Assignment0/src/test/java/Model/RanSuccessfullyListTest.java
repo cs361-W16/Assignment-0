@@ -20,6 +20,8 @@ public class RanSuccessfullyListTest {
         RanSuccessfullyList rsl = new RanSuccessfullyList();
         Person p = new Person("Michael Hilton","MichaelHilton","Mac");
         rsl.addPerson(p);
-        assertEquals(1,rsl.getPersons().size());
+        p = new Person("Jacob Lewis", "lewisj3", "Windows");
+        rsl.addPerson(p);
+        assertEquals(2,rsl.getPersons().size());
     }
 }
