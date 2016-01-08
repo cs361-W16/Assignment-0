@@ -39,7 +39,7 @@ public class ApplicationController {
         //This is a sample. You can copy and modify it for your needs.
         rsf.addPerson(new Person("Michael Hilton","MichaelHilton","Mac"));
         rsf.addPerson(new Person("Taylor Kirkpatrick","kirkpatt","Windows"));
-
+	rsf.addPerson(new Person("Jaydeep Rotithor", "rotithoj", "Windows"));
         return Results.json().render(rsf);
 
     }
