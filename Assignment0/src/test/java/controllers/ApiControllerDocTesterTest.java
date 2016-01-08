@@ -57,7 +57,7 @@ public class ApiControllerDocTesterTest extends NinjaDocTester {
 
         RanSuccessfullyList ranSuccesfully = response.payloadJsonAs(RanSuccessfullyList.class);
 
-        assertEquals(2,ranSuccesfully.getPersons().size());
+        assertEquals(3,ranSuccesfully.getPersons().size());
 
     
     }
