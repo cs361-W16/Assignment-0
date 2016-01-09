@@ -2,7 +2,7 @@ package Model;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static Model.RanSuccessfullyListTest;
 
 /**
  * Created by michaelhilton on 1/5/16.
@@ -32,8 +32,9 @@ public class RanSuccessfullyListTest {
         rsl.addPerson(p);
         p = new Person("Daniel Goh","danielgwj","Mac");
         rsl.addPerson(p);
-
-        assertEquals(7,rsl.getPersons().size());
+        p = new Person("Luay Alshawi","luayalshawi","windows");
+        rsl.addPerson(p);
+        assertEquals(8,rsl.getPersons().size());
 
 
 
