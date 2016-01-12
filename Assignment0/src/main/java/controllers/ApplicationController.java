@@ -53,10 +53,9 @@ public class ApplicationController {
         rsf.addPerson(new Person("Nic Desilets", "ndesilets", "Linux"));
         rsf.addPerson(new Person("Paul Minner", "paublo96", "Linux"));
         rsf.addPerson(new Person("Cameron McDonnell", "mcdoncam", "Windows"));
-
-        
+	rfs.addPerson(new Person("Christian Armatas", "armatasc", "Windows"));
+       
         return Results.json().render(rsf);
-
     }
 
     public static class SimplePojo {
