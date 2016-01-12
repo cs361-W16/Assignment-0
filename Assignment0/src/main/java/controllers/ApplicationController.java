@@ -38,7 +38,7 @@ public class ApplicationController {
         RanSuccessfullyList rsf = new RanSuccessfullyList();
         //This is a sample. You can copy and modify it for your needs.
         rsf.addPerson(new Person("Michael Hilton","MichaelHilton","Mac"));
-        rsf.addPerson(new Person("Taylor Kirkpatrick","kirkpatt","Windows"));
+        rsf.addPerson(new Person("Touku Cha","toukucha","Windows"));
 
         return Results.json().render(rsf);
 
