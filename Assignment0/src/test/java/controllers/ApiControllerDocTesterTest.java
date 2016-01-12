@@ -33,13 +33,13 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 public class ApiControllerDocTesterTest extends NinjaDocTester {
-    
+
     String URL_INDEX = "/";
     String URL_RAN_SUCCESSFULLY = "/ranSuccessfully.json";
-    
+
     @Test
     public void testGetIndex() {
-    
+
         Response response = makeRequest(
                 Request.GET().url(
                         testServerUrl().path(URL_INDEX)));
@@ -47,17 +47,18 @@ public class ApiControllerDocTesterTest extends NinjaDocTester {
         assertThat(response.payload, containsString("Hello World!"));
         assertThat(response.payload, containsString("BAM!"));
     }
-    
+
     @Test
     public void testGetSuccessfullyRunList() {
-    
+
         Response response = makeRequest(
                 Request.GET().url(
                         testServerUrl().path(URL_RAN_SUCCESSFULLY)));
 
         RanSuccessfullyList ranSuccesfully = response.payloadJsonAs(RanSuccessfullyList.class);
 
-        assertEquals(12,ranSuccesfully.getPersons().size());
+
+        assertEquals(16,ranSuccesfully.getPersons().size());
 
 
     }
