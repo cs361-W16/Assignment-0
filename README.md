@@ -7,6 +7,8 @@ Your tasks for this assignment are as follows:
 1. [**Push**][ref-push]/sync the changes up to GitHub.
 1. [Create a **pull request**][pull-request] on the original repository to turn in the assignment.
 
+Now we can assign issues too!!
+This should do it!
 
 <!-- Links -->
 [create-repo]: https://help.github.com/articles/create-a-repo

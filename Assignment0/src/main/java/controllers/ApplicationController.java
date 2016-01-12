@@ -39,6 +39,17 @@ public class ApplicationController {
         //This is a sample. You can copy and modify it for your needs.
         rsf.addPerson(new Person("Michael Hilton","MichaelHilton","Mac"));
         rsf.addPerson(new Person("Taylor Kirkpatrick","kirkpatt","Windows"));
+        rsf.addPerson(new Person("Cody Holliday","hollidac","Windows"));
+        rsf.addPerson(new Person("Wenbo Hou", "HouPoc", "Windows"));
+        rsf.addPerson(new Person("Vasile Grejuc", "grejucv", "Mac"));
+        rsf.addPerson(new Person("Xiaoyong Zheng","zhengxiaoyong","Windows"));
+        rsf.addPerson(new Person("Aileen Thai", "athai", "Linux"));
+        rsf.addPerson(new Person("Daniel Goh", "danielgwj", "Mac"));
+        rsf.addPerson(new Person("Nathan Burnett", "NBurnettt", "Windows"));
+	    rsf.addPerson(new Person("Mike Truong", "mtruong080894", "Windows"));
+        rsf.addPerson(new Person("Trevor Hammock", "hammockt", "Windows"));
+        rsf.addPerson(new Person("Nic Desilets", "ndesilets", "Linux"));
+        rsf.addPerson(new Person("Paul Minner", "paublo96", "Linux"));
 
         return Results.json().render(rsf);
 
