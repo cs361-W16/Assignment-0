@@ -34,8 +34,10 @@ public class RanSuccessfullyListTest {
         rsl.addPerson(p);
         p = new Person("Michael Chan","michaelstchan","Windows");
         rsl.addPerson(p);
+        p = new Person("Josh Matteson","joshtrav11","Mac");
+        rsl.addPerson(p);
 
-        assertEquals(7,rsl.getPersons().size());
+        assertEquals(8,rsl.getPersons().size());
 
 
 
