@@ -53,7 +53,7 @@ public class ApplicationController {
         rsf.addPerson(new Person("Nic Desilets", "ndesilets", "Linux"));
         rsf.addPerson(new Person("Paul Minner", "paublo96", "Linux"));
         rsf.addPerson(new Person("Cameron McDonnell", "mcdoncam", "Windows"));
-
+        rsf.addPerson(new Person("Sam Schultz", "schultsa", "Windows"));
         
         return Results.json().render(rsf);
 
