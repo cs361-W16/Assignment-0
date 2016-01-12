@@ -10,6 +10,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -30,6 +31,8 @@
       </profile-state>
     </entry>
   </component>
+=======
+>>>>>>> 3756477f6f37801d38cc273adb3230d6facfe7ca
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -57,6 +60,7 @@
           </splitter-proportions>
         </settings>
       </state>
+<<<<<<< HEAD
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -68,6 +72,8 @@
           </splitter-proportions>
         </settings>
       </state>
+=======
+>>>>>>> 3756477f6f37801d38cc273adb3230d6facfe7ca
     </states>
   </component>
 </project>
