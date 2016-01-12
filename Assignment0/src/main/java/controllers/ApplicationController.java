@@ -32,7 +32,7 @@ public class ApplicationController {
         return Results.html();
 
     }
-    
+
     public Result ranSuccessfully() {
 
         RanSuccessfullyList rsf = new RanSuccessfullyList();
@@ -43,6 +43,7 @@ public class ApplicationController {
         rsf.addPerson(new Person("Wenbo Hou", "HouPoc", "Windows"));
         rsf.addPerson(new Person("Vasile Grejuc", "grejucv", "Mac"));
         rsf.addPerson(new Person("Xiaoyong Zheng","zhengxiaoyong","Windows"));
+        rsf.addperson(new Person("yuanyuan","yuanyuan997","mac"));
 
         return Results.json().render(rsf);
 
