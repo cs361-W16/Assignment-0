@@ -18,20 +18,8 @@ public class RanSuccessfullyListTest {
     @Test
     public void testSizeOneList(){
         RanSuccessfullyList rsl = new RanSuccessfullyList();
-        Person p = new Person("Michael Hilton","MichaelHilton","Mac");
+        Person p = new Person("Drew Hamm", "ddmdna", "Windows");
         rsl.addPerson(p);
-        p = new Person("Taylor Kirkpatrick","kirkpatt","Windows");
-        rsl.addPerson(p);
-        p = new Person("Oleksii Zadniprianyi","alexzdn","Windows");
-        rsl.addPerson(p);
-        p = new Person("Nic Desilets", "ndesilets", "Linux");
-        rsl.addPerson(p);
-        p = new Person("Yichen Duan", "wjduand", "Mac");
-        rsl.addPerson(p);
-        p = new Person("Jin Hoong", "jinshin9", "Windows");
-        rsl.addPerson(p);
-        p = new Person("Cameron McDonnell", "mcdoncam", "Windows");
-        rsl.addPerson(p);
-        assertEquals(6,rsl.getPersons().size());
+        assertEquals(1,rsl.getPersons().size());
     }
 }
